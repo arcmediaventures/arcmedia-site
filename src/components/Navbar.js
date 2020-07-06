@@ -16,10 +16,7 @@ export default function Navbar({ links, topImage }) {
 
   return (
     <>
-      <div
-        className={`navbar-btn ${naveOpen}`}
-        onClick={() => setNavOpen(!naveOpen)}
-      >
+      <div className={`navbar-btn ${naveOpen}`} onClick={() => setNavOpen(!naveOpen)}>
         <div />
         <div />
         <div />
@@ -33,16 +30,13 @@ export default function Navbar({ links, topImage }) {
           <ul>
             {links.map((link, i) => (
               <li key={i}>
-                <a onClick={e => goto(e, link.to)}>{link.title}</a>
+                <a onClick={(e) => goto(e, link.to)}>{link.title}</a>
               </li>
             ))}
           </ul>
           <div className="powered-by">
             <h3>Powered by</h3>
-            <img
-              src="/images/limation_banner.png"
-              alt="Powered by Limation Studios"
-            />
+            <img src="/images/limation_banner.png" alt="Powered by Limation Studios" />
           </div>
         </nav>
       </div>

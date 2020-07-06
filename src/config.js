@@ -13,24 +13,9 @@ export default {
       { title: "CONNECT", to: "#connect" }
     ]
   },
-  work: [
-    "/images/logo.jpg",
-    "/images/logo.jpg",
-    "/images/logo.jpg",
-    "/images/logo.jpg"
-  ],
-  family: [
-    "/images/logo.jpg",
-    "/images/logo.jpg",
-    "/images/logo.jpg",
-    "/images/logo.jpg"
-  ],
-  whosTalking: [
-    "/images/logo.jpg",
-    "/images/logo.jpg",
-    "/images/logo.jpg",
-    "/images/logo.jpg"
-  ],
+  work: ["/images/logo.jpg", "/images/logo.jpg", "/images/logo.jpg", "/images/logo.jpg"],
+  family: ["/images/logo.jpg", "/images/logo.jpg", "/images/logo.jpg", "/images/logo.jpg"],
+  whosTalking: ["/images/logo.jpg", "/images/logo.jpg", "/images/logo.jpg", "/images/logo.jpg"],
   socials: [
     { name: "Facebook", icon: "logo-facebook", link: "", text: "Arc Media" },
     { name: "Phone", icon: "call-outline", link: "", text: "+919467336229" },
@@ -45,7 +30,7 @@ export default {
   members: [
     {
       name: "Vivian Anthony",
-      img: "https://via.placeholder.com/500?text=Person",
+      img: "/images/team/VivianAnthony.jpg",
       position: "CEO and FOUNDER",
       about:
         "A full time hardworking extrovert with an expertise of 5 years in the marketing, advertising and communication industry; Vivian knows exactly what your business needs and requires at each and every given time of the year. From planning of an event, brainstorming behind each and every aspect of the marketing technique that should be used accurately; behind your business, Vivian knows and covers it all"
@@ -95,10 +80,7 @@ export default {
         "Restaurant 1, Upper Ground Floor, Lane 7, Power Plaza, Koregaon Park, Pune"
       ],
       deal: "Get a 15% Discount on the Food Bill at The Earth Cafe.",
-      tandc: [
-        "Valid from Monday to Thursday",
-        "Applicable on a-la-carte dine-in only"
-      ]
+      tandc: ["Valid from Monday to Thursday", "Applicable on a-la-carte dine-in only"]
     },
     {
       name: "The Earth Café",
@@ -108,10 +90,7 @@ export default {
         "Restaurant 1, Upper Ground Floor, Lane 7, Power Plaza, Koregaon Park, Pune"
       ],
       deal: "Get a 15% Discount on the Food Bill at The Earth Cafe.",
-      tandc: [
-        "Valid from Monday to Thursday",
-        "Applicable on a-la-carte dine-in only"
-      ]
+      tandc: ["Valid from Monday to Thursday", "Applicable on a-la-carte dine-in only"]
     }
   ],
   testimonials: [

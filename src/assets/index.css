@@ -338,6 +338,23 @@ section {
   margin-bottom: 4px;
 }
 
+.service {
+  margin: 0px 8px;
+  margin-top: 18px;
+  width: calc(100% - 16px);
+  text-align: left;
+  display: flex;
+}
+.service h1 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.service p {
+  margin: 6px 0px;
+  font-size: 1.1em;
+}
+
 footer {
   text-align: center;
 }

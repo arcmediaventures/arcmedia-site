@@ -9,6 +9,7 @@ import OurFamily from "./components/OurFamily";
 import WhosTalking from "./components/WhosTalking";
 import Testimonials from "./components/Testimonials";
 import SocializeWithUs from "./components/SocializeWithUs";
+import WhyAreWeDifferent from "./components/WhyAreWeDifferent";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
         <WhosTalking />
         <OurWork />
         <Testimonials />
+        <WhyAreWeDifferent />
         <SocializeWithUs />
       </main>
       <Footer />

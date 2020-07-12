@@ -10,7 +10,8 @@ export default {
       { title: "WHO'S TALKING", to: "#whos-talking" },
       { title: "OUR WORK", to: "#our-work" },
       { title: "TESTIMONIALS", to: "#testimonials" },
-      { title: "CONNECT", to: "#connect" }
+      { title: "CONNECT", to: "#connect" },
+      { title: "WHY ARE WE DIFFERENT", to: "#why-we-different" }
     ]
   },
   work: [
@@ -177,6 +178,93 @@ export default {
     //   company: "",
     //   review: ""
     // }
+  ],
+  services: [
+    {
+      title: "Digital marketing",
+      para:
+        "we keep up with the latest marketing insights, google data and insights. Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to\npromote products and services."
+    },
+    {
+      title: "Social media marketing",
+      para: "wherein we cover all social media platforms including Instagram, facebook, youtube, linkedin."
+    },
+    {
+      title: "Outdoor marketing",
+      para:
+        "We also provide outdoor media and outdoor marketing from designing bill boards, hoarding to getting your word and your designs all over."
+    },
+    {
+      title: "Celebrity management",
+      para:
+        "we are the publicist and the contract negotiator for our clients under celebrity management. We take care of their p.r services, scial media handling to providing all the press\nand the media coverage any celebrity needs to be present I the market."
+    },
+    {
+      title: "Model management",
+      para: "we connect new faces and models with different scouts that work in the fashion industry."
+    },
+    {
+      title: "Customer relationship management",
+      para: "arc media has an approachto manage a company’s interaction with current and potential customers."
+    },
+    {
+      title: "Production services",
+      para:
+        "we provide various commercial graphic designs, commercial photography, commercial videography, hosting all types of different events and later making a cinematic and a motion graphic video of the entire event setup buy ARC MEDIA."
+    },
+    {
+      title: "Push notification services",
+      para:
+        "a service which is related to sms marketing, whatsapp marketing, messenger marketing to spread the reach and goodwill of our client to a vast number of audience present in the market with the available amount of potential leads that arc media holds as a firm in the\nversatile field of industries that we engage in."
+    },
+    {
+      title: "Public relations",
+      para: " arc media has the best of public relations of p.r executives and managers with the experience in strategic p.r consulting."
+    },
+
+    {
+      title: "Wedding and event management",
+      para:
+        "arc media is an extremely organized and strategic when it comes to event planning. May it be a wedding or any other corporate or social event, arc media covers it\nall."
+    },
+    {
+      title: "Audio and visual marketing",
+      para:
+        "we provide audio and visual marketing expected to deliver sophisticated and integrated experiences to engage the consumer and create demand."
+    },
+    {
+      title: "Corporate merchandise",
+      para:
+        "corporate merchandise is products branded with a logo or slogan that that ultimately makes a brand reach more people and increases interaction amongst the crowd ."
+    },
+    {
+      title: "Outdoor catering",
+      para: "outdoor catering involves a caterer or caterers engaged in providing services in connection with catering at different places."
+    },
+    {
+      title: "Promotions",
+      para:
+        "Arc media has an excellent team of promoters who are engaged in different areas of promotional activities in order for the services and the products of our clients to have a widespread\nreach in the audience."
+    },
+    {
+      title: "Corporate social responsibility activities",
+      para:
+        "We deal with different businesses’ csr activities in the most efficient and in a brilliant way to create a strong mark and impression on the people of the society\nas well as activities that fit in the guidelins of the government set for different large scale businesses."
+    },
+    {
+      title: "Inbound marketing",
+      para: "it is a technique that is used by arc media for drawing customers to products and services via social media marketing."
+    },
+    {
+      title: "Content writing",
+      para:
+        "arc media also engages in content writing where different type of content is generated for different businesses for the purpose of serving different media platforms."
+    },
+    {
+      title: "Branding and strategic branding activities",
+      para:
+        "our branding and brand strategies make us simple and the only one in the market. We cater to the right audience and create our space in customer’s\npsychology and help our clients grow."
+    }
   ]
 };
 

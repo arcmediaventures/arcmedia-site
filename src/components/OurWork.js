@@ -6,7 +6,7 @@ export default function OurWork({ work }) {
     <section id="our-work">
       <h1 className="section-title">Our work</h1>
       <h2 className="section-subtitle">Here's a preview of the photography, videography & graphic design work for some of our clients.</h2>
-      <div className="work-wrapper">
+      <div className="work-wrapper showcase">
         {work.map((wk, i) => (
           <img src={wk} key={i} alt="work" />
         ))}

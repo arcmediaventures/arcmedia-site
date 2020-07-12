@@ -423,4 +423,7 @@ footer > .powered-by > h3 {
     margin: 0px auto;
     margin-bottom: 8px;
   }
+  footer > .powered-by {
+    display: none;
+  }
 }

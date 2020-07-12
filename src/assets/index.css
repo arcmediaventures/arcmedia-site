@@ -339,9 +339,10 @@ section {
 }
 
 .service {
-  margin: 0px 8px;
+  margin: 0px auto;
   margin-top: 18px;
-  width: calc(100% - 16px);
+  width: 100%;
+  max-width: 900px;
   text-align: left;
   display: flex;
 }

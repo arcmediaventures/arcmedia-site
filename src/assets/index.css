@@ -237,8 +237,12 @@ section {
   justify-content: center;
 }
 .members-wrapper .member img {
-  width: 250px;
+  width: auto;
   height: auto;
+  max-width: 300px;
+  max-height: 500px;
+  object-fit: contain;
+  object-position: center;
   margin: 0px auto;
 }
 .members-wrapper .member h1 {
@@ -307,7 +311,7 @@ section {
   width: 200px;
   margin: 6px 12px;
   object-fit: contain;
-  object-position: top left;
+  object-position: center;
 }
 
 .testimonial {

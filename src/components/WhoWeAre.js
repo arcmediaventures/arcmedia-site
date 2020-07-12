@@ -6,6 +6,7 @@ export default function WhoWeAre() {
       <h1 className="section-title">What we do</h1>
       <img
         src="/images/whatwedo.jpg"
+        alt="What we do"
         style={{ maxHeight: "70vh", width: "100%", objectFit: "contain", objectPosition: "center", maxWidth: 1024 }}
       />
     </section>

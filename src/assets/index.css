@@ -327,9 +327,9 @@ section {
 }
 .testimonial img {
   width: 260px;
-  margin-right: 8px;
+  margin-right: 14px;
   object-fit: contain;
-  object-position: top left;
+  object-position: center left;
 }
 .testimonial h1,
 .testimonial h2 {

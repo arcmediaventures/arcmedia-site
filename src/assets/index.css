@@ -329,7 +329,7 @@ section {
   width: 260px;
   margin-right: 14px;
   object-fit: contain;
-  object-position: center left;
+  object-position: top left;
 }
 .testimonial h1,
 .testimonial h2 {

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhoWeAre() {
   return (
-    <section id="who-we-are" style={{ backgroundColor: "#eee" }}>
+    <section id="what-we-do" style={{ backgroundColor: "#eee" }}>
       <h1 className="section-title">What we do</h1>
       <h2 className="section-subtitle">
         The growth and development of people is the highest calling of leadership. This is what Arc Media strives for, your GROWTH and

@@ -2,7 +2,7 @@ export default {
   navbar: {
     topImage: "/images/logo.jpg",
     links: [
-      // { title: "WHAT WE DO", to: "#what-we-do" },
+      { title: "WHAT WE DO", to: "#what-we-do" },
       // { title: "WHO WE ARE", to: "#who-we-are" },
       { title: "OUR TEAM", to: "#our-team" },
       // { title: "MULTIFIT ASSOCIATION", to: "#multifit-association" },

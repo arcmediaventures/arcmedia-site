@@ -10,8 +10,8 @@ export default {
       { title: "WHO'S TALKING", to: "#whos-talking" },
       { title: "OUR WORK", to: "#our-work" },
       { title: "TESTIMONIALS", to: "#testimonials" },
-      { title: "CONNECT", to: "#connect" },
-      { title: "WHY ARE WE DIFFERENT", to: "#why-we-different" }
+      { title: "WHY ARE WE DIFFERENT", to: "#why-we-different" },
+      { title: "CONNECT", to: "#connect" }
     ]
   },
   work: [
@@ -56,15 +56,15 @@ export default {
     "/images/work-with/woodpecker.png"
   ],
   socials: [
-    { name: "Facebook", icon: "logo-facebook", link: "", text: "Arc Media" },
-    { name: "Phone", icon: "call-outline", link: "", text: "+919467336229" },
+    { name: "Facebook", icon: "logo-facebook", link: "https://www.facebook.com/ARC-MEDIA-100112811472596/", text: "Arc Media" },
+    { name: "Phone", icon: "call-outline", link: "phone:+919764865849", text: "+919764865849" },
     {
       name: "Email",
       icon: "mail-outline",
-      link: "",
-      text: "help@arcmedia.com"
+      link: "mailto:arcmediaventures@gmail.com",
+      text: "arcmediaventures@gmail.com"
     },
-    { name: "Instagram", icon: "logo-instagram", link: "", text: "@arcmedia" }
+    { name: "Instagram", icon: "logo-instagram", link: "https://instagram.com/arcmediaventures", text: "@arcmedia" }
   ],
   members: [
     {

@@ -10,7 +10,7 @@ export default function Testimonials({ testimonials }) {
         <div className="testimonial" key={i}>
           <img src={testi.image} alt="Testimonial" />
           <div className="text">
-            <h1>{testi.name}</h1>
+            {testi.name && <h1>{testi.name}</h1>}
             <h2>{testi.company}</h2>
             <p>{testi.review}</p>
           </div>

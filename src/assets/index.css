@@ -49,21 +49,19 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 12px 0px;
-}
-.navbar nav ul li {
-  display: block;
-  padding: 4px 12px;
-  color: #678;
-  text-transform: uppercase;
-}
-.navbar nav ul li:hover {
-  color: #859bb1;
+  margin: 6px 0px;
 }
 .navbar nav ul li a {
-  color: inherit;
+  display: block;
+  padding: 8px 12px;
+  color: #435261;
   text-decoration: none;
   cursor: pointer;
+  text-transform: uppercase;
+  transition: 200ms color ease-in;
+}
+.navbar nav ul li:hover a {
+  color: #859bb1;
 }
 .powered-by {
   display: none;
@@ -175,7 +173,7 @@ header .section-title::after {
   background-color: #fff !important;
 }
 header h1 {
-  font-size: 2em !important;
+  font-size: 2.5em !important;
 }
 
 section {
@@ -226,7 +224,10 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0px auto;
   margin-top: 12px;
+  width: 100%;
+  max-width: 1024px;
 }
 .members-wrapper .member {
   width: 100%;
@@ -395,16 +396,17 @@ footer > .powered-by > h3 {
   width: 150px;
 }
 .social-wrapper li a {
-  display: block;
+  display: flex;
   margin: 0px auto;
   margin-bottom: 8px;
   color: #fff;
-  padding: 28px;
+  width: 100px;
+  height: 100px;
   background-color: #000;
   border-radius: 50%;
 }
 .social-wrapper li a ion-icon {
-  margin-bottom: -3px;
+  margin: auto;
   font-size: 3em;
 }
 .social-wrapper li h1,

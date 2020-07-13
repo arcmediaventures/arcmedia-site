@@ -1,5 +1,6 @@
 import React from "react";
 import config from "../config";
+import AnimateInView from "./AnimateInView";
 
 export default function OurTeam({ members }) {
   return (
@@ -11,12 +12,12 @@ export default function OurTeam({ members }) {
       </h2>
       <div className="members-wrapper">
         {members.map((member, i) => (
-          <div className="member" key={i}>
+          <AnimateInView className="member" animation={i % 2 ? "fadeInRight" : "fadeInLeft"} key={i}>
             <img src={member.img} alt={member.name} />
             <h1>{member.name}</h1>
             <h2>{member.position}</h2>
             <p>{member.about}</p>
-          </div>
+          </AnimateInView>
         ))}
       </div>
     </section>

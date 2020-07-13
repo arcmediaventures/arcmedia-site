@@ -1,5 +1,6 @@
 import React from "react";
 import "./assets/index.css";
+import "./assets/animate.css";
 
 import Navbar from "./components/Navbar";
 import WhoWeAre from "./components/WhoWeAre";
@@ -18,8 +19,10 @@ export default function App() {
       <Navbar />
       <main>
         <header id="home">
-          <h2>No More Hiding!</h2>
-          <h1 className="section-title">LET'S GET SOCIAL?</h1>
+          <div className="animate__animated animate__fadeInDown">
+            <h2>No More Hiding!</h2>
+            <h1 className="section-title ">LET'S GET SOCIAL?</h1>
+          </div>
         </header>
         <WhoWeAre />
         <OurTeam />

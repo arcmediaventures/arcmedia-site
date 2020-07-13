@@ -56,15 +56,15 @@ export default {
     "/images/work-with/woodpecker.png"
   ],
   socials: [
-    { name: "Facebook", icon: "logo-facebook", link: "https://www.facebook.com/ARC-MEDIA-100112811472596/", text: "Arc Media" },
-    { name: "Phone", icon: "call-outline", link: "phone:+919764865849", text: "+919764865849" },
+    { name: "Facebook", icon: "logo-facebook", link: "https://www.facebook.com/ARC-MEDIA-100112811472596/", text: "" },
+    { name: "Phone", icon: "call-outline", link: "tel:+919764865849", text: "" },
     {
       name: "Email",
       icon: "mail-outline",
       link: "mailto:arcmediaventures@gmail.com",
-      text: "arcmediaventures@gmail.com"
+      text: ""
     },
-    { name: "Instagram", icon: "logo-instagram", link: "https://instagram.com/arcmediaventures", text: "@arcmedia" }
+    { name: "Instagram", icon: "logo-instagram", link: "https://instagram.com/arcmediaventures", text: "" }
   ],
   members: [
     {

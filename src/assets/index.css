@@ -166,11 +166,10 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("/images/background.jpg");
+  background-image: url("/images/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   padding: 80px 24px;
   color: #fff;
 }
@@ -195,7 +194,6 @@ section#what-we-do {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
 }
 section#what-we-do::before {
   content: "";
@@ -237,6 +235,34 @@ section#what-we-do::before {
   font-weight: 300;
   line-height: 1.45;
   color: #678;
+}
+
+.whatwedo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px auto;
+  max-width: 680px;
+  padding: 0px 12px;
+  z-index: 70;
+}
+.whatwedo h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 50%;
+  max-width: 600px;
+  margin: 8px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .whatwedo {
+    flex-direction: column;
+  }
+  .whatwedo h3 {
+    width: 100%;
+    text-align: center;
+    margin: 12px 0px;
+  }
 }
 
 .family-photo {

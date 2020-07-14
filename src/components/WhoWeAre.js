@@ -4,21 +4,9 @@ export default function WhoWeAre({ dos }) {
   return (
     <section id="what-we-do">
       <h1 className="section-title">What we do</h1>
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-between",
-          margin: "0px auto",
-          maxWidth: 680,
-          padding: "0px 12px",
-          zIndex: 70
-        }}
-      >
+      <div className="whatwedo">
         {dos.map((text, i) => (
-          <h3 key={i} style={{ fontWeight: 500, textTransform: "uppercase", width: "50%", maxWidth: "600px", margin: "8px 0px" }}>
-            {text}
-          </h3>
+          <h3 key={i}>{text}</h3>
         ))}
       </div>
     </section>

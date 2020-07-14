@@ -1,5 +1,6 @@
 import React from "react";
 import config from "../config";
+import AnimateInView from "./AnimateInView";
 
 export default function OurFamily({ family }) {
   return (
@@ -8,7 +9,9 @@ export default function OurFamily({ family }) {
       <h2 className="section-subtitle">Here are some of our clients or family members as we like to call them!</h2>
       <div className="work-wrapper">
         {family.map((fam, i) => (
-          <img src={fam} alt="Family" key={i} />
+          <AnimateInView animation="fadeIn" key={i}>
+            <img src={fam} alt="Family" />
+          </AnimateInView>
         ))}
       </div>
     </section>

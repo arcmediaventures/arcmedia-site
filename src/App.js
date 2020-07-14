@@ -20,8 +20,8 @@ export default function App() {
       <main>
         <header id="home">
           <div className="animate__animated animate__fadeInDown">
-            <h2>No More Hiding!</h2>
-            <h1 className="section-title ">LET'S GET SOCIAL?</h1>
+            <h1 className="section-title ">Still hiding undercover?</h1>
+            <h2>Get your venture marketted today!</h2>
           </div>
         </header>
         <WhoWeAre />

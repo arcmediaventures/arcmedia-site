@@ -38,9 +38,14 @@ h3 {
 .navbar h1 {
   margin-bottom: 0px;
 }
-
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
 .navbar .logo img {
   height: 50px;
+  width: 50px;
+  margin-right: 12px;
 }
 
 .navbar nav ul {
@@ -165,6 +170,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 80px 24px;
   color: #fff;
 }
@@ -182,6 +188,26 @@ section {
   align-items: center;
   padding: 80px 24px;
 }
+
+section#what-we-do {
+  position: relative;
+  background-image: url("/images/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+section#what-we-do::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #41d8a6;
+  opacity: 0.85;
+}
+
 .section-title {
   font-weight: 500;
   font-size: 2em;

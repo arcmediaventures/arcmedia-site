@@ -21,7 +21,7 @@ export default function App() {
         <header id="home">
           <div className="animate__animated animate__fadeInDown">
             <h1 className="section-title ">Still hiding undercover?</h1>
-            <h2>Get your venture marketted today!</h2>
+            <h2>Get your venture marketed today!</h2>
           </div>
         </header>
         <WhoWeAre />

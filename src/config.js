@@ -1,6 +1,7 @@
 export default {
   navbar: {
-    topImage: "/images/logo.jpg",
+    title: "ARCMEDIA",
+    topImage: "/favicon.ico",
     links: [
       { title: "WHAT WE DO", to: "#what-we-do" },
       { title: "OUR TEAM", to: "#our-team" },

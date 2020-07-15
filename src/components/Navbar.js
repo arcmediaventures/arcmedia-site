@@ -23,8 +23,8 @@ export default function Navbar({ links, topImage }) {
       </div>
       <div className={`navbar ${naveOpen}`}>
         <div className="logo" onClick={() => goto(null, "#home")}>
-          <img src="/nav_logo.png" alt="ArcMedia" />
-          <h1>ARCMEDIA</h1>
+          <img src={config.navbar.topImage} alt="ArcMedia" />
+          <h1>{config.navbar.title}</h1>
         </div>
         <nav>
           <ul>

@@ -34,10 +34,6 @@ export default function Navbar({ links, topImage }) {
               </li>
             ))}
           </ul>
-          <div className="powered-by">
-            <h3>Powered by</h3>
-            <img src="/images/limation_banner.png" alt="Powered by Limation Studios" />
-          </div>
         </nav>
       </div>
     </>

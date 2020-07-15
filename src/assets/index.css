@@ -63,10 +63,11 @@ h3 {
   text-decoration: none;
   cursor: pointer;
   text-transform: uppercase;
-  transition: 200ms color ease-in;
+  transition: 200ms all ease-in;
 }
 .navbar nav ul li:hover a {
   color: #859bb1;
+  transform: scale(1.15);
 }
 .powered-by {
   display: none;

@@ -9,7 +9,7 @@ export default {
       { title: "WHO'S TALKING", to: "#whos-talking" },
       { title: "OUR WORK", to: "#our-work" },
       { title: "TESTIMONIALS", to: "#testimonials" },
-      { title: "WHY ARE WE DIFFERENT", to: "#why-we-different" },
+      { title: "SERVICES", to: "#why-we-different" },
       { title: "CONNECT", to: "#connect" }
     ]
   },

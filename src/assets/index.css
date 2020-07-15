@@ -59,15 +59,16 @@ h3 {
 .navbar nav ul li a {
   display: block;
   padding: 8px 12px;
-  color: #435261;
+  color: #859bb1;
   text-decoration: none;
   cursor: pointer;
   text-transform: uppercase;
   transition: 200ms all ease-in;
 }
 .navbar nav ul li:hover a {
-  color: #859bb1;
-  transform: scale(1.15);
+  transform: scale(1.1) translateY(-0.1em);
+  font-weight: 400;
+  color: #435261;
 }
 .powered-by {
   display: none;

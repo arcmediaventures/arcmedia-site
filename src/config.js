@@ -14,45 +14,45 @@ export default {
     ]
   },
   work: [
-    "/images/showcase/denimstar-1.jpg",
-    "/images/showcase/denimstar-2.jpg",
-    "/images/showcase/denimstar-3.jpg",
-    "/images/showcase/k9-1.jpg",
-    "/images/showcase/punjabispice-1.jpg",
-    "/images/showcase/punjabispice-2.jpg",
-    "/images/showcase/repsfitness-1.jpg",
-    "/images/showcase/repsfitness-2.jpg",
-    "/images/showcase/spacebar-1.jpg",
-    "/images/showcase/spacebar-2.jpg",
-    "/images/showcase/spacebar-3.jpg",
-    "/images/showcase/spacebar-4.jpeg",
-    "/images/showcase/stark-1.jpeg",
-    "/images/showcase/stark-2.jpeg",
-    "/images/showcase/stark-3.jpeg",
-    "/images/showcase/stark-4.jpeg",
-    "/images/showcase/velocity-1.jpg"
+    "/images/showcase/denimstar-1-min.jpg",
+    "/images/showcase/denimstar-2-min.jpg",
+    "/images/showcase/denimstar-3-min.jpg",
+    "/images/showcase/k9-1-min.jpg",
+    "/images/showcase/punjabispice-1-min.jpg",
+    "/images/showcase/punjabispice-2-min.jpg",
+    "/images/showcase/repsfitness-1-min.jpg",
+    "/images/showcase/repsfitness-2-min.jpg",
+    "/images/showcase/spacebar-1-min.jpg",
+    "/images/showcase/spacebar-2-min.jpg",
+    "/images/showcase/spacebar-3-min.jpg",
+    "/images/showcase/spacebar-4-min.jpeg",
+    "/images/showcase/stark-1-min.jpeg",
+    "/images/showcase/stark-2-min.jpeg",
+    "/images/showcase/stark-3-min.jpeg",
+    "/images/showcase/stark-4-min.jpeg",
+    "/images/showcase/velocity-1-min.jpg"
   ],
   family: [
-    "/images/our-family/asa.png",
-    "/images/our-family/denimstar.jpg",
-    "/images/our-family/k9.jpeg",
-    "/images/our-family/myxibulls.png",
-    "/images/our-family/nutrikhata.jpg",
-    "/images/our-family/punjabispice.png",
-    "/images/our-family/repsfitness.png",
-    "/images/our-family/spacebar.png",
-    "/images/our-family/velocity.jpg"
+    "/images/our-family/asa-min.png",
+    "/images/our-family/denimstar-min.jpg",
+    "/images/our-family/k9-min.jpeg",
+    "/images/our-family/myxibulls-min.png",
+    "/images/our-family/nutrikhata-min.jpg",
+    "/images/our-family/punjabispice-min.png",
+    "/images/our-family/repsfitness-min.png",
+    "/images/our-family/spacebar-min.png",
+    "/images/our-family/velocity-min.jpg"
   ],
   whosTalking: [
-    "/images/work-with/fllorence.png",
-    "/images/work-with/image1.jpeg",
+    "/images/work-with/fllorence-min.png",
+    "/images/work-with/image1-min.jpeg",
     "/images/work-with/indra.gif",
-    "/images/work-with/patiala.png",
-    "/images/work-with/pune-hip-hop.jpeg",
-    "/images/work-with/saibalaji.jpeg",
-    "/images/work-with/StarCafe.png",
-    "/images/work-with/tedx.png",
-    "/images/work-with/woodpecker.png"
+    "/images/work-with/patiala-min.png",
+    "/images/work-with/pune-hip-hop-min.jpeg",
+    "/images/work-with/saibalaji-min.jpeg",
+    "/images/work-with/StarCafe-min.png",
+    "/images/work-with/tedx-min.png",
+    "/images/work-with/woodpecker-min.png"
   ],
   socials: [
     { name: "Facebook", icon: "logo-facebook", link: "https://www.facebook.com/ARC-MEDIA-100112811472596/", text: "" },
@@ -68,42 +68,42 @@ export default {
   members: [
     {
       name: "Vivian Anthony",
-      img: "/images/team/VivianAnthony.jpg",
+      img: "/images/team/VivianAnthony-min.jpg",
       position: "CEO and FOUNDER",
       about:
         "A full-time hardworking extrovert with the expertise of 5 years in the marketing, advertising, and communication industry; Vivian knows exactly what your business needs and requires at each and every given time of the year. From the planning of an event, brainstorming behind each and every aspect of the marketing technique that should be used accurately; behind your business, Vivian knows and covers it all."
     },
     {
       name: "Yash Aryan",
-      img: "/images/team/Bunny.jpg",
+      img: "/images/team/Bunny-min.jpg",
       position: "Director of photography / D.O.P",
       about:
         "A master of camera handling and a production genius, Yash covers it all. With an experience of 3 years in the field of commercial production, conceptualized shoots, wedding, and other product shoots; Yash makes a mark in the core team of Arc Media."
     },
     {
       name: "Sagar Surkute",
-      img: "/images/team/SagarSurkute.jpg",
+      img: "/images/team/SagarSurkute-min.jpg",
       position: "post production manager",
       about:
         "The head chef of Arc Media’s kitchen, who takes care of the post-production behind every shoot that takes place. Furnishing all the work with his hands dipped in the juice of vision and creativity."
     },
     {
       name: "Vaishnavi Jha",
-      img: "/images/team/VaishnaviJha.jpg",
+      img: "/images/team/VaishnaviJha-min.jpg",
       position: "public relations manager and business strategist",
       about:
         "The public relations manager Vaishnavi Jha makes sure that your business maintains a strong and excellent public image along with brainstorming various business development strategies for your growth and efficient working. From managing the production, connecting with the clients to delivering all the client data; she has got it all covered."
     },
     {
       name: "Shivani Tiwari",
-      img: "/images/team/ShivaniTiwari.jpg",
+      img: "/images/team/ShivaniTiwari-min.jpg",
       position: "public relations executive in chief/ business planner",
       about:
         "Shivani is the public relations executive in chief who is hardworking and is responsible for the creative planning of all the clients. From maintaining cordial relations to planning and developing strategies; Shivani does it all."
     },
     {
       name: "Akanksha Singh",
-      img: "/images/team/AkankshaSingh.jpg",
+      img: "/images/team/AkankshaSingh-min.jpg",
       position: "content writer and social media manager",
       about:
         "All the content that is generated for the clients of Arc Media is inspected under Akanksha Singh. She is also an excellent social media manager who takes control of various digital activities of many clients."
@@ -111,43 +111,43 @@ export default {
   ],
   testimonials: [
     {
-      image: "/images/our-family/repsfitness.png",
+      image: "/images/our-family/repsfitness-min.png",
       company: "Reps Fitness",
       review:
         "I am very happy with the work that they provide. They have a great team with enthusiastic people always running about, getting work done. The package that they provide is quite different, which is why I picked them in the first place."
     },
     {
-      image: "/images/our-family/punjabispice.png",
+      image: "/images/our-family/punjabispice-min.png",
       company: "Punjabi Spice",
       review:
         "They have an amazing team. The services that they provide, right from the creatives to the cinematic videos are just fabulous. I am completely satisfied with the work they give. My social media account looks perfect."
     },
     {
-      image: "/images/our-family/spacebar.png",
+      image: "/images/our-family/spacebar-min.png",
       company: "Space Bar",
       review:
         "I love working with energetic, hardworking people, and the team of Arc media is definitely like that. The representation of my business is done really well. They always come up with great ideas, which I love. I m happy with their work. Plus their service to the clients for all the doubts is very quick and prompt which makes it easier to work along."
     },
     {
-      image: "/images/our-family/k9.jpeg",
+      image: "/images/our-family/k9-min.jpeg",
       company: "K9",
       review:
         "I have been running a seafood restaurant in Pimple Saudagar for a while now. Arc media not just promotes the USP of our business but makes everything equally valuable. I could have never imagined the interiors of the restaurant being portrayed so beautifully on social media platforms, but Arc media made it possible. They have been a support system for us to do better . Arc Media make us reach to people's heart. We look forward to this."
     },
     {
-      image: "/images/work-with/StarCafe.png",
+      image: "/images/work-with/StarCafe-min.png",
       company: "Stark cafe",
       review:
         "Arc Media has helped us make our superhero-themed cafe an exclusive one in town. Every superhero needs a break, a concept by the team helped us create our presence not only on social media platforms but also in people's heart. It has been a beautiful journey with Arc Media from the very start."
     },
     {
-      image: "/images/our-family/denimstar.jpg",
+      image: "/images/our-family/denimstar-min.jpg",
       company: "Denim Star",
       review:
         "Arc Media has always been able to meet our needs. They are truly excellent partners. They send us things before we even know that we need them. They've cared about how well we do since day 1. I've experienced nothing but complete professionalism from Arc Media."
     },
     {
-      image: "/images/our-family/velocity.jpg",
+      image: "/images/our-family/velocity-min.jpg",
       company: "Velocity",
       review:
         "Arc Media has really amazed us every step of the way. They provide a tremendous amount of quality content. They're flexible with scheduling. The team provides a clear road map for what they want to accomplish and how they plan to do it. We appreciate their accountability. We're so grateful to have a marketing firm working with us, not for us."

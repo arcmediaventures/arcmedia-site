@@ -192,12 +192,12 @@ header .section-title::after {
 }
 header h1 {
   font-size: 2.5em !important;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 header h2 {
   margin-top: 12px;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -503,6 +503,27 @@ footer > .powered-by > h3 {
   word-break: break-word;
 }
 
+.address {
+  display: flex;
+  align-items: center;
+}
+.address > img {
+  width: 500px;
+  height: auto;
+  margin-right: -150px;
+}
+.address > .text {
+  line-height: 1.5;
+  max-width: 300px;
+  margin-right: 50px;
+}
+.address > a > img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  object-position: center;
+}
+
 @media screen and (max-width: 700px) {
   .family-photo {
     width: 100%;
@@ -532,5 +553,12 @@ footer > .powered-by > h3 {
   }
   footer > .powered-by {
     display: none;
+  }
+  .address {
+    flex-direction: column;
+  }
+  .address > img {
+    width: 100%;
+    margin: 0px;
   }
 }

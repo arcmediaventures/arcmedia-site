@@ -18,8 +18,8 @@ export default function App() {
       <Navbar />
       <main>
         <header id="home">
-          <h1 className="section-title animate__animated animate__fadeInDown">Still, hiding undercover?</h1>
-          <h2 className="animate__animated animate__fadeInUp">Get your venture marketed today!</h2>
+          <h1 className="section-title animate__animated animate__fadeInRight">Still, hiding undercover?</h1>
+          <h2 className="animate__animated animate__fadeInLeft">Get your venture marketed today!</h2>
         </header>
         <WhatWeDo />
         <OurTeam />

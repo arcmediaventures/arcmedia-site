@@ -3,9 +3,7 @@ export default {
     topImage: "/images/logo.jpg",
     links: [
       { title: "WHAT WE DO", to: "#what-we-do" },
-      // { title: "WHO WE ARE", to: "#who-we-are" },
       { title: "OUR TEAM", to: "#our-team" },
-      // { title: "MULTIFIT ASSOCIATION", to: "#multifit-association" },
       { title: "OUR CLIENTS", to: "#our-clients" },
       { title: "WHO'S TALKING", to: "#whos-talking" },
       { title: "OUR WORK", to: "#our-work" },
@@ -110,18 +108,6 @@ export default {
         "All the content that is generated for the clients of arc media are inspected under Akanksha singh. She is also an excellent social media manager who takes control of various digital activities of many clients."
     }
   ],
-  // associations: [
-  //   {
-  //     name: "The Earth Café",
-  //     image: "https://via.placeholder.com/500x200",
-  //     addresses: [
-  //       "Restaurant 1, Upper Ground Floor, Lane 7, Power Plaza, Koregaon Park, Pune",
-  //       "Restaurant 1, Upper Ground Floor, Lane 7, Power Plaza, Koregaon Park, Pune"
-  //     ],
-  //     deal: "Get a 15% Discount on the Food Bill at The Earth Cafe.",
-  //     tandc: ["Valid from Monday to Thursday", "Applicable on a-la-carte dine-in only"]
-  //   },
-  // ],
   testimonials: [
     {
       name: "",
@@ -269,6 +255,7 @@ export default {
 };
 
 /*
+
 images go in ./public/images/ folder
 image links reletive to ./public/
 icons for socials from here https://ionicons.com/

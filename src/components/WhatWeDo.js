@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function WhoWeAre({ dos }) {
+export default function WhatWeDo({ dos }) {
   return (
     <section id="what-we-do">
       <h1 className="section-title">What we do</h1>
@@ -13,7 +13,7 @@ export default function WhoWeAre({ dos }) {
   );
 }
 
-WhoWeAre.defaultProps = {
+WhatWeDo.defaultProps = {
   dos: [
     "digital marketing",
     "production services",

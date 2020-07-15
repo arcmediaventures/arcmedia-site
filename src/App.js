@@ -3,7 +3,7 @@ import "./assets/index.css";
 import "./assets/animate.css";
 
 import Navbar from "./components/Navbar";
-import WhoWeAre from "./components/WhoWeAre";
+import WhatWeDo from "./components/WhatWeDo";
 import OurTeam from "./components/OurTeam";
 import OurWork from "./components/OurWork";
 import OurFamily from "./components/OurFamily";
@@ -11,7 +11,6 @@ import WhosTalking from "./components/WhosTalking";
 import Testimonials from "./components/Testimonials";
 import SocializeWithUs from "./components/SocializeWithUs";
 import WhyAreWeDifferent from "./components/WhyAreWeDifferent";
-import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -24,7 +23,7 @@ export default function App() {
             <h2>Get your venture marketed today!</h2>
           </div>
         </header>
-        <WhoWeAre />
+        <WhatWeDo />
         <OurTeam />
         <OurFamily />
         <WhosTalking />
@@ -33,7 +32,9 @@ export default function App() {
         <WhyAreWeDifferent />
         <SocializeWithUs />
       </main>
-      <Footer />
+      <footer>
+        <h3>© 2020</h3>
+      </footer>
     </>
   );
 }

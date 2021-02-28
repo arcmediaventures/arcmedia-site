@@ -279,3 +279,6 @@ mail-outline
 call-outline
 
 */
+
+// build command: npm run build
+// publish directory: build
